@@ -49,7 +49,7 @@ static Scanner sc = new Scanner(System.in);
             case 1 -> {
                 if (ComputerTarget == 2 ) {
                     System.out.println("Computer chosen paper.");
-                    System.out.println("You loss.");
+                    System.out.println("You lose.");
                 }
                 else if(ComputerTarget == 3){
                     System.out.println("Computer chosen scissor.");
@@ -64,9 +64,9 @@ static Scanner sc = new Scanner(System.in);
             case 2 -> {
                 if (ComputerTarget == 3) {
                     System.out.println("Computer chosen scissor.");
-                    System.out.println("You loss.");
+                    System.out.println("You lose.");
                 } else if (ComputerTarget == Target) {
-                    System.out.println("Computer chosen scissor.");
+                    System.out.println("Computer chosen paper.");
                     System.out.println("Draw.");
                 } else if (ComputerTarget == 1) {
                     System.out.println("Computer chosen rock.");
@@ -77,9 +77,9 @@ static Scanner sc = new Scanner(System.in);
             case 3 -> {
                 if (ComputerTarget == 1) {
                     System.out.println("Computer chosen rock.");
-                    System.out.println("You loss.");
+                    System.out.println("You lose.");
                 } else if (ComputerTarget == Target) {
-                    System.out.println("Computer chosen rock.");
+                    System.out.println("Computer chosen scissor.");
                     System.out.println("Draw.");
                 } else if (ComputerTarget == 2) {
                     System.out.println("Computer chosen paper.");
