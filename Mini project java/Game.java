@@ -56,7 +56,7 @@ static Scanner sc = new Scanner(System.in);
                     System.out.println("You win.");
                 }
                 else if (ComputerTarget == Target) {
-                    System.out.println("Computer chosen scissor.");
+                    System.out.println("Computer chosen Rock.");
                     System.out.println("Draw");
                 }
 
